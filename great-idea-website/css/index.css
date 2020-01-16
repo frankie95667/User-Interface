@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 
 
 .container {
-	width: 1024px;
+	width: 980px;
 	padding: 0 40px;
 	margin: 0 auto;
 }
@@ -86,9 +86,7 @@ h3 {
 }
 
 /***************** HEADER STYLES *********************/
-.logo-container {
-	padding: 20px 0;
-	width: 20%;
+.logo {
 	display: inline-block;
 }
 
@@ -96,21 +94,23 @@ header nav {
 	display: inline-block;
 	margin: 0 auto;
 	width: 100%;
-	height: 90px;
 	padding: 0 10px ;
 	box-sizing: border-box;
 }
 
 nav .nav-links-group {
 	width: 70%;
+	position: relative;
 	display: inline-block;
 }
 
 nav .nav-links-group a {
 	text-decoration: none;
-	color: gray;
+	color: lightgray;
 	width: 16%;
 	height: 90px;
+	line-height: 90px;
+	white-space: nowrap;
 	display: inline-block;
 }
 
@@ -122,13 +122,14 @@ div.hero {
 }
 
 .hero img {
-	width: 40%;
 	display: inline;
 }
 
 .hero .text{
 	text-align: center;
 	width: 50%;
+	position: relative;
+	top: -42px;
 	display: inline-block;
 }
 
@@ -151,6 +152,29 @@ div.hero {
 
 #features, #about {
 	width: 45%;
-	margin: 20px auto;
+	margin: 35px auto;
 	display: inline-block;
+}
+
+section.row {
+	border-bottom: 1px solid black;
+}
+
+.col-3-div {
+	width: 32%;
+	margin: 35px auto;
+	display: inline-block;
+}
+
+footer {
+	padding: 35px 0;
+}
+
+.contact p {
+	padding-top: 20px;
+}
+
+.copyright {
+	margin-top: 60px;
+	text-align: center;
 }
